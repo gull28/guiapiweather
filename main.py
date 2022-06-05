@@ -14,7 +14,7 @@ class Page1(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         try:
-            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=riga&appid=65930be1f80be345a43b884baa0d2c68&units=metric")
+            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=riga&appid=&units=metric")
             apijson = json.loads(api_req.content)
         except tk.EXCEPTION as error:
             apijson = "Error"
@@ -33,7 +33,7 @@ class Page2(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         try:
-            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=moscow&appid=65930be1f80be345a43b884baa0d2c68&units=metric")
+            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=moscow&appid=&units=metric")
             apijson = json.loads(api_req.content)
         except tk.EXCEPTION as error:
             apijson = "Error"
@@ -52,7 +52,7 @@ class Page3(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         try:
-            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=london&appid=65930be1f80be345a43b884baa0d2c68&units=metric")
+            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=london&appid=&units=metric")
             apijson = json.loads(api_req.content)
         except tk.EXCEPTION as error:
             apijson = "Error"
@@ -70,7 +70,7 @@ class Page4(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         try:
-            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=berlin&appid=65930be1f80be345a43b884baa0d2c68&units=metric")
+            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=berlin&appid=&units=metric")
             apijson = json.loads(api_req.content)
         except tk.EXCEPTION as error:
             apijson = "Error"
@@ -88,7 +88,7 @@ class Page5(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         try:
-            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=new%20york&appid=65930be1f80be345a43b884baa0d2c68&units=metric")
+            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=new%20york&appid=&units=metric")
             apijson = json.loads(api_req.content)
         except tk.EXCEPTION as error:
             apijson = "Error"
@@ -106,7 +106,7 @@ class Page6(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         try:
-            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=toronto&appid=65930be1f80be345a43b884baa0d2c68&units=metric")
+            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=toronto&appid=&units=metric")
             apijson = json.loads(api_req.content)
         except tk.EXCEPTION as error:
             apijson = "Error"
@@ -124,7 +124,7 @@ class Page7(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         try:
-            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=beijing&appid=65930be1f80be345a43b884baa0d2c68&units=metric")
+            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=beijing&appid=&units=metric")
             apijson = json.loads(api_req.content)
         except tk.EXCEPTION as error:
             apijson = "Error"
@@ -142,7 +142,7 @@ class Page8(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         try:
-            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=mumbai&appid=65930be1f80be345a43b884baa0d2c68&units=metric")
+            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=mumbai&appid=&units=metric")
             apijson = json.loads(api_req.content)
         except tk.EXCEPTION as error:
             apijson = "Error"
@@ -160,7 +160,7 @@ class Page9(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         try:
-            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=cairo&appid=65930be1f80be345a43b884baa0d2c68&units=metric")
+            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=cairo&appid=&units=metric")
             apijson = json.loads(api_req.content)
         except tk.EXCEPTION as error:
             apijson = "Error"
@@ -178,7 +178,7 @@ class Page10(Page):
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
         try:
-            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=santiago&appid=65930be1f80be345a43b884baa0d2c68&units=metric")
+            api_req = requests.get("http://api.openweathermap.org/data/2.5/weather?q=santiago&appid=&units=metric")
             apijson = json.loads(api_req.content)
         except tk.EXCEPTION as error:
             apijson = "Error"
